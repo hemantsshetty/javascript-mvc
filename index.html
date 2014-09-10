@@ -1,0 +1,39 @@
+<!doctype html>
+	<head>
+		<title>A simple To Do demo</title>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<header>The To Do App</header>
+		<main>
+			<section id="todo" class="rail round">
+				<h4>To Do</h4>
+				<div id="todo-wrapper" class="card-wrapper"></div>
+				<div class="add-card round">+</div>
+			</section>
+			<section id="doing" class="rail round">
+				<h4>Doing</h4>
+				<div id="doing-wrapper" class="card-wrapper"></div>
+				<div class="add-card round">+</div>
+			</section>
+			<section id="done" class="rail round">
+				<h4>Done</h4>
+				<div id="done-wrapper" class="card-wrapper"></div>
+				<div class="add-card round">+</div>
+			</section>
+			<section class="update-card-wrapper hide">
+				<div class="update-card round">
+					<div class="close"><a>close</a></div>
+					<textarea class="content" rows="6"></textarea>
+					<div class="save-add round">Add</div>
+				</div>
+			</section>
+		</main>
+		<footer>A simple To Do demo on JavaScript MVC</footer>
+		<script src="js/lib/jquery-1.11.1.min.js"></script>
+		<script src="js/lib/jquery-ui.js"></script>
+		<script src="js/modal.js"></script>
+		<script src="js/view.js"></script>
+		<script src="js/controller.js"></script>
+	</body>
+</html>
