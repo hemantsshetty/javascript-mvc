@@ -27,3 +27,15 @@ For example, you can move a card from Todo state to Doing or Done state.
 
 All card related data is stored in HTML5 local storage and it is created, updated and deleted by Modal.
 Controller handles user interaction and communicates the Modal data/user interaction data to View so that it can update the UI.
+
+==============================
+
+Screenshot
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/javascript-mvc/1ecb40cd971634e8235e6f142b485d513ea4c17c/screenshot/todo1.png)
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/javascript-mvc/1ecb40cd971634e8235e6f142b485d513ea4c17c/screenshot/todo2.png)
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/javascript-mvc/1ecb40cd971634e8235e6f142b485d513ea4c17c/screenshot/todo3.png)
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/javascript-mvc/1ecb40cd971634e8235e6f142b485d513ea4c17c/screenshot/todo4.png)
